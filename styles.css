@@ -1,39 +1,38 @@
-/* Custom CSS for adjusting background and container */
 body {
-    background-color: #b3e5fc; /* Light blue background reminiscent of Hawaiian skies */
-    margin: 0; /* Remove default body margin */
-    padding: 0; /* Remove default body padding */
+    background: linear-gradient(to bottom right, #ffb6c1, #add8e6) no-repeat fixed;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
-    background-color: #ffeb3b; /* Yellow container background, consider adding a Hawaiian pattern */
+    background: linear-gradient(to bottom right, #d8a4af, #91a7d0);
     padding: 20px;
     border-radius: 10px;
-    margin-top: 50px; /* Adjust as needed */
+    margin-top: 50px;
 }
 
-/* Custom CSS for adjusting button colors and adding theme */
 .btn-danger {
-    background-color: #d32f2f; /* Red for "No" button */
-    border-color: #d32f2f;
+    background-color: #ff4d4d;
+    border-color: #ff4d4d;
 }
 
 .btn-danger:hover {
-    background-color: #b71c1c; /* Darker red on hover */
-    border-color: #b71c1c;
+    background-color: #e60000;
+    border-color: #e60000;
 }
 
 .btn-success {
-    background-color: #388e3c; /* Green for "Yes" button, reminiscent of the lush landscapes */
-    border-color: #388e3c;
+    background-color: #33cc33;
+    border-color: #33cc33;
 }
 
 .btn-success:hover {
-    background-color: #2e7d32; /* Darker green on hover */
-    border-color: #2e7d32;
+    background-color: #008000;
+    border-color: #008000;
 }
 
 .gif-img {
-    max-width: 100%; /* Make all GIFs responsive */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 500px;
+    width: 100%;
+    height: auto;
 }
