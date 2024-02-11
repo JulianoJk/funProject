@@ -1,9 +1,22 @@
-document.getElementById('valentineButton').addEventListener('click', function() {
-    var response = prompt("Will you be my Valentine?");
-    if (response !== null && response.trim() !== "") {
-      document.getElementById('response').innerHTML = "Your response: " + response;
-    } else {
-      document.getElementById('response').innerHTML = "Please enter a response!";
-    }
+// JavaScript to change the displayed GIF based on button hover
+document.getElementById("noButton").addEventListener("mouseenter", function () {
+    document.getElementById("gifDisplay").src = "./images/no.gif";
+  });
+  document.getElementById("noButton").addEventListener("mouseleave", function () {
+    document.getElementById("gifDisplay").src = "/images/willyou.gif";
+  });
+  
+  document.getElementById("yesButton").addEventListener("mouseenter", function () {
+    document.getElementById("gifDisplay").src = "./images/yes.gif";
+  });
+  document.getElementById("yesButton").addEventListener("mouseleave", function () {
+    document.getElementById("gifDisplay").src = "/images/willyou.gif";
+  });
+  
+  document.getElementById("maybeButton").addEventListener("mouseenter", function () {
+    document.getElementById("gifDisplay").src = "./images/maybe.gif";
+  });
+  document.getElementById("maybeButton").addEventListener("mouseleave", function () {
+    document.getElementById("gifDisplay").src = "/images/willyou.gif";
   });
   
